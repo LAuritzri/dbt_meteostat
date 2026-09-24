@@ -1,5 +1,6 @@
+{{ config(materialized='table') }}
  
-WITH airports_regions_join AS (
+    WITH airports_regions_join AS (
             SELECT
                     a.faa,
                     a.name,
