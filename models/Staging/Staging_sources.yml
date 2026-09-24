@@ -3,7 +3,7 @@
 sources:
 
 - name: weather_data
-  schema: c_teacher
+  schema: s_lauritzrichter
   tables:
     - name: weather_daily_raw
     - name: weather_hourly_raw
@@ -16,4 +16,3 @@ sources:
     - name: regions
 
 
-    
